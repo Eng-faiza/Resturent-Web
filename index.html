@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>my resturent</title>
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" /> -->
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="classes.js"></script>
+
+    <!-- animation link -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+    <nav class="bg-[url('banner-01.jpg')] h-96  bg-cover"> 
+
+        <div class="container mx-auto flex justify-between items-center pt-3">
+            <img src="logo2-04-04.png" alt="" class="h-6 w-auto">
+            <ul class="text-white flex  space-x-4">
+                <li><a href="#">home</a></li>
+                <li><a href="#">about</a></li>
+                <li><a href="#">services</a></li>
+                <li><a href="#">contact us</a></li>
+            </ul>
+            <a href="#" class="text-white bg-[#ff7800] px-2 py-1 rounded-full text-4  hover:bg-[#D6A47b]">get started</a>
+        </div>
+
+    <!-- text -->
+     <div class="container  mt-9  mx-auto">
+        <h3 class="text-4xl capitalize text-white font-bold"> eat <span class="text-[#ff7800]">health</span> diet  <br>to help your body <br> stay fit</h3>
+        <p class="text-white pt-3 font-thin mb-4">Lorem ipsum dolor sit amet, consectetur <br> adipisicing elit.</p>
+        <a href="#" class="text-white bg-[#ff7800]  px-2 py-1 rounded-full  text-white text-3  hover:bg-[#76a713]">order now</a>
+
+     </div>
+        
+
+    </nav>
+
+    <!-- cards   -->
+     <div class=" container mx-auto  mt-5 grid grid-cols-3 gap-3">
+        <div class=" shadow-lg p-5 hover:scale-90 transition"  data-aos="fade-up"
+        data-aos-duration="3000">
+        <div class="container flex justify-center mb-2 "> <ion-icon name="beer-outline" class="bg-[#ff7800] p-3 text-xl text-white "></ion-icon></div>
+            <h3 class="font-bold capitalize text-5  text-center">nutrition expert</h3>
+            <p class="text-3 text-center font-thin">Lorem ipsum dolor sit, amet consectetur
+                 adipisicing elit. Dolor ex eligendi 
+                 atque quis pariatur in?</p>
+
+        </div>
+        <div class=" shadow-lg p-5 hover:scale-90 transition" data-aos="fade-up"
+        data-aos-anchor-placement="top-center">
+        <div class="container flex justify-center mb-2 "> <ion-icon name="alarm-outline" class="bg-[#76a713] p-3 text-xl text-white "></ion-icon></div>
+            <h3 class="font-bold capitalize text-5  text-center">tohelp your body</h3>
+            <p class="text-3 text-center font-thin">Lorem ipsum dolor sit, amet consectetur
+                 adipisicing elit. Dolor ex eligendi 
+                 atque quis pariatur in?</p>
+
+        </div>
+        <div class=" shadow-lg p-5 hover:scale-90 transition" data-aos="fade-down"
+        data-aos-easing="linear"
+        data-aos-duration="1500">
+        <div class="container flex justify-center mb-2 "> <ion-icon name="pizza-outline" class="bg-[#ff7800] p-3 text-xl text-white "></ion-icon></div>
+            <h3 class="font-bold capitalize text-5  text-center">nutrition expert</h3>
+            <p class="text-3 text-center font-thin">Lorem ipsum dolor sit, amet consectetur
+                 adipisicing elit. Dolor ex eligendi 
+                 atque quis pariatur in?</p>
+
+        </div>
+
+     </div>
+
+     <!-- animation link -->
+     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+     <script>
+        AOS.init();
+      </script>
+</body>
+</html>
